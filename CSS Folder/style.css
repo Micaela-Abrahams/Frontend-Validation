@@ -37,3 +37,11 @@ body {
     border-style: solid;
     border-color: transparent black transparent transparent;
 }
+
+p {
+    display: none;
+}
+
+#newTaskError {
+    color: red;
+}
