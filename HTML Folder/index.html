@@ -10,8 +10,45 @@
 </head>
 
 <body>
+    <h1>Form:</h1>
 
+    <div id="form">
 
+        <!-- Div for Input field New Task -->
+        <div class="tooltip">New Task: <input type="text" name="addTask" id="addTask" required="Required">
+            <span class="tooltiptext">Required & must contain html characters.</span>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Div for Input field Task Description -->
+        <div class="tooltip">Task Description: <input type="text" name="addDescription" id="addDescription">
+            <span class="tooltiptext">Optional</span>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Div for Input field Date -->
+        <div class="tooltip">Set Task Due Date: <input type="date" name="setDate" id="setDate" required>
+            <span class="tooltiptext">Required, Must select a date.</span>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- Div for Input field Time -->
+        <div class="tooltip">Set Task Time: <input type="time" name="setTime" id="setTime" required>
+            <span class="tooltiptext">Required, must select a time.</span>
+        </div>
+
+        <br>
+
+        <!-- Input field for Submit Button -->
+        <input type="submit" value="Submit">
+
+    </div>
 
 
 
